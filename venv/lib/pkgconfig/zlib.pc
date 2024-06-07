@@ -1,0 +1,13 @@
+prefix=/home/aditya/Desktop/Flask/venv
+exec_prefix=/home/aditya/Desktop/Flask/venv
+libdir=/home/aditya/Desktop/Flask/venv/lib
+sharedlibdir=/home/aditya/Desktop/Flask/venv/lib
+includedir=/home/aditya/Desktop/Flask/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
